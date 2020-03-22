@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PageToolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="PopupTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:colorPrimary">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:itemBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="BottomNavigation">
+        <item name="itemBackground">@android:color/black</item>
+        <item name="itemIconTint">@color/bottom_bar_icons_color</item>
+        <item name="itemTextColor">@color/bottom_bar_icons_color</item>
+    </style>
+    <style name="TitleTheme">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAlignment">inherit</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="SubTitleTheme">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="PermissionButtonTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/confirm_button</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ToolbarTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="HorizontalLine">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+
+    <style name="MapDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_up_to_down</item>
+        <item name="android:windowExitAnimation">@anim/anim_down_to_bottom</item>
+    </style>
+
+    <style name="TextViewButtonTheme">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="OnBoardTitleTheme">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="OnBoardSubtitleTheme">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

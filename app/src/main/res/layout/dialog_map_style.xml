@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/dialog_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    android:background="@drawable/dialog_bg"
+    android:transitionName="@string/fab_dialog_transition">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:padding="32dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tool:listitem="@layout/viewholder_map_item" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="8dp"
+        app:srcCompat="@drawable/ic_close" />
+
+</FrameLayout>
+
+

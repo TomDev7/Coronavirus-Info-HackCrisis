@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_information">Über die App</string>
+    <string name="action_share">App tieless</string>
+    <string name="turn_on_permissions">Ablehnung des Zugangs</string>
+    <string name="fab_dialog_transition">transition.fab</string>
+    <string name="permissions_info"> Akzeptieren, um diese Funktionalität zu anwen-den</string>
+    <string name="btn_grant_permissions">Berechtigung erteilen</string>
+    <string name="section_under_construction">Diese Sektion ist in Bearbeitung und sie wird in der nächste Ausgabe zugänglich.Bleiben Sie dran!</string>
+    <string name="number_of_infected">Anzahl der Infizierten:\n%1$d</string>
+    <string name="total_of_infected">Auf der ganzen Welt:\n%1$d</string>
+    <string name="toolbar_knowledge">Artikel</string>
+    <string name="source_label">Quelle: </string>
+    <string name="toolbar_map">die Landkarte</string>
+    <string name="toolbar_news">Nachrichten</string>
+    <string name="toolbar_announcements">Ankündigungen</string>
+    <string name="bottom_nav_knowledge">Wissensbasis</string>
+    <string name="bottom_nav_announcements">Ankündigungen</string>
+    <string name="bottom_nav_map">Krankheitskarte</string>
+    <string name="bottom_nav_news">Nachrichten</string>
+    <string name="share_app_text">Diese App enthält nützliche Informationen über Coronavirus: Coronavirus Info auf Google Play</string>
+</resources>

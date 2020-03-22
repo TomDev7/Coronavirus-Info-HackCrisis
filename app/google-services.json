@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "202653147111",
+    "firebase_url": "https://coronapp-b6b65.firebaseio.com",
+    "project_id": "coronapp-b6b65",
+    "storage_bucket": "coronapp-b6b65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202653147111:android:d14345bf982930bad2e742",
+        "android_client_info": {
+          "package_name": "com.fairideas.coronavirusinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202653147111-4b7s03vuvc2in2tddafcna72jamilghl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO9EOgYWN9e6w-UfuSU3Q5Qt3zicWHjkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202653147111-4b7s03vuvc2in2tddafcna72jamilghl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_information">О приложении</string>
+    <string name="action_share">Поделиться приложением</string>
+    <string name="turn_on_permissions">Отказано в доступе</string>
+    <string name="fab_dialog_transition">transition.fab</string>
+    <string name="permissions_info">Нужно разрешения, чтобы испольовать</string>
+    <string name="btn_grant_permissions">Предоставить разрешения</string>
+    <string name="section_under_construction">Этот раздел еще находится в разработке. Он будет доступен вскоре после выхода новой версии приложения. Оставайтесь с нами!</string>
+    <string name="number_of_infected">Подтвержденные случаи:\n%1$d</string>
+    <string name="total_of_infected">Всего в мире:\n%1$d</string>
+    <string name="toolbar_knowledge">Статьи</string>
+    <string name="source_label">Исток: </string>
+    <string name="toolbar_map">Карта</string>
+    <string name="toolbar_news">Новости</string>
+    <string name="toolbar_announcements">Объявления</string>
+    <string name="bottom_nav_knowledge">База знаний</string>
+    <string name="bottom_nav_announcements">Объявления</string>
+    <string name="bottom_nav_map">Карта зараженных</string>
+    <string name="bottom_nav_news">Новости</string>
+    <string name="share_app_text">Это приложение содержит полезную информацию о Коронавирусе: информация о Коронавирусе в Google Play</string>
+    <string name="news_url">https://www.bbc.com/russian/search/?q=%D0%BA%D0%BE%D1%80%D0%BE%D0%BD%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%81</string>
+</resources>

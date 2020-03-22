@@ -1,0 +1,109 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'com.google.gms.google-services'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.fairideas.coronavirusinfo"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 5
+        versionName "1.4"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.appcompat:appcompat:$androidx_component_version"
+    implementation "androidx.core:core-ktx:$androidx_ktx_version"
+    implementation "androidx.preference:preference-ktx:$androidx_component_version"
+    implementation "androidx.legacy:legacy-support-v4:$android_legacy_v4_version"
+    implementation "androidx.cardview:cardview:$androidx_cardview_version"
+    implementation "androidx.recyclerview:recyclerview:$androidx_component_version"
+    implementation "androidx.constraintlayout:constraintlayout:$androidx_constraint_version"
+    implementation "androidx.lifecycle:lifecycle-extensions:$androidx_lifecycle_version"
+    implementation "com.google.android.material:material:$android_materail_version"
+
+    //Jsoup
+    implementation "org.jsoup:jsoup:$jsoup_version"
+
+    //Test
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //OSM
+    implementation "org.osmdroid:osmdroid-android:$osm_version"
+
+    //Firebase
+    implementation "com.google.firebase:firebase-analytics:$firebase_analytics_version"
+    implementation "com.google.firebase:firebase-firestore:$firebase_firestore_version"
+    implementation "com.google.firebase:firebase-storage:$firebase_storage_version"
+    implementation "com.firebaseui:firebase-ui-storage:$firebase_ui_storage_version"
+
+    //  Retrofit
+    implementation "com.squareup.retrofit2:retrofit:2.3.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.3.0"
+    implementation 'com.squareup.retrofit2:converter-scalars:2.1.0'
+
+    //RXAndroid
+    implementation "io.reactivex.rxjava2:rxandroid:2.0.1"
+
+
+    //Glide
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    kapt "com.github.bumptech.glide:compiler:$glide_version"
+
+    // UI
+    implementation "me.relex:circleindicator:$circle_indicator_version"
+
+    // SimpleXML
+    implementation "org.simpleframework:simple-xml:2.7.1"
+
+
+    // LeakCanary
+    implementation "com.squareup.leakcanary:leakcanary-android:$leakcanary_version"
+
+    // JSoup
+    implementation group: 'org.jsoup', name: 'jsoup', version: '1.12.2'
+
+    //
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+}

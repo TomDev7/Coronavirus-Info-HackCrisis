@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_information">O aplikacji</string>
+    <string name="action_share">Podziel się aplikacją</string>
+    <string name="turn_on_permissions">Odmowa dostępu</string>
+    <string name="fab_dialog_transition">transition.fab</string>
+    <string name="permissions_info">Zaakceptuj, aby użyć tej funkcjonalności</string>
+    <string name="btn_grant_permissions">Udziel uprawnień</string>
+    <string name="section_under_construction">Ta sekcja jest w przygotowaniu i będzie dostępna w kolejnej wersji aplikacji. Bądzcie czujni!</string>
+    <string name="number_of_infected">Liczba zarażonych:\n%1$d</string>
+    <string name="number_of_deaths">Liczba zgonów:\n%1$d</string>
+    <string name="number_of_recovered">Liczba wyzdrowiałych:\n%1$d</string>
+    <string name="total_of_infected">Na całym świecie:\n%1$d</string>
+    <string name="toolbar_knowledge">Artykuły</string>
+    <string name="source_label">Źródło: </string>
+    <string name="toolbar_map">Mapa</string>
+    <string name="toolbar_news">Wiadomości</string>
+    <string name="toolbar_announcements">Komunikaty</string>
+    <string name="bottom_nav_knowledge">Baza wiedzy</string>
+    <string name="bottom_nav_stats">Statystyka</string>
+    <string name="bottom_nav_announcements">Komunikaty</string>
+    <string name="bottom_nav_map">Mapa zachorowań</string>
+    <string name="bottom_nav_news">Wiadomości</string>
+    <string name="share_app_text">Ta aplikacja zawiera użyteczne informacje na temat Koronawirusa: Coronavirus Info na Google Play</string>
+    <string name="news_url">https://wiadomosci.wp.pl/tag/koronawirus</string>
+
+    <!--OnBoard-->
+    <string name="turn_on_storage">Potrzebny jest dostęp do pamięci urządzenia</string>
+    <string name="storage_explanation">Mapa zapisuje się w pamięci urządzenia</string>
+    <string name="turn_on_localization">Gdzie jesteśmy?\n Włącz lokalizację!</string>
+    <string name="find_my_location">Funkcja lokalizacji potrzebna jest do wyświetlenia mapy oraz niektórych powiadomień zależnych od lokalizacji</string>
+    <string name="later">PÓŹNIEJ</string>
+</resources>
