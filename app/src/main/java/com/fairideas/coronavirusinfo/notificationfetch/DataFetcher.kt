@@ -12,7 +12,7 @@ class DataFetcher(val context: Context) {
 
     companion object {
 
-        val url = "http://www.zskdk.hekko24.pl"
+        val url = "" //TODO insert web page address - used for manual notification publishing
     }
 
     fun fetchNewsHeadlines() {
