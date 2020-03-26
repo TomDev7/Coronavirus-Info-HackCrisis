@@ -1,4 +1,4 @@
-<img src="readme_images/app_banner_small.png" alt="Application promotion banner" width="180"/>
+<img src="readme_images/app_banner_small.png" alt="Application promotion banner" width="800"/>
 <h1>Coronavirus Info</h1>
 
 <b>Coronavirus Info</b> is a mobile application developed for purposes of **HackCrisis** hackathon taking place between 18.03.2020 and 22.03.2020. 
