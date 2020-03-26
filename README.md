@@ -29,5 +29,5 @@ The project has been developed thanks to the following team:
 <i>Karol Dubrawski</i> - Public Relations, copywriting <br>
 <i>Karolina Markusiewicz</i> - content supervising <br>
 
-<img src="readme_images/screen1.png" alt="Application screenshot 1" width="180"/> <img src="readme_images/screen4.png" alt="Application screenshot 4" width="180"/>
-<img src="readme_images/screen5.png" alt="Application screenshot 5" width="180"/> <img src="readme_images/screen6.png" alt="Application screenshot 6" width="180"/>
+<img src="readme_images/screen1.png" alt="Application screenshot 1" height="370"/> <img src="readme_images/screen4.png" alt="Application screenshot 4" height="370"/>
+<img src="readme_images/screen5.png" alt="Application screenshot 5" height="370"/> <img src="readme_images/screen6.png" alt="Application screenshot 6" height="370"/>
