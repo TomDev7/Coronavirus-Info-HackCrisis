@@ -1,7 +1,7 @@
 <img src="readme_images/app_banner_small.png" alt="Application promotion banner" width="180"/>
 <h1>Coronavirus Info</h1>
 
-<b>Coronavirus Info</b> is a mobile application developed for purposes of HackCrisis hackathon taking place between 18.03.2020 and 22.03.2020. 
+<b>Coronavirus Info</b> is a mobile application developed for purposes of **HackCrisis** hackathon taking place between 18.03.2020 and 22.03.2020. 
 Partnered by GovTech Polska, Google, Amazon, Microsoft and many others, event handled the topic of existent at that time SARS-CoV-2 virus disease.
 It enables users to track the spread of caused by the virus COVID-19.
 
@@ -29,3 +29,5 @@ The project has been developed thanks to the following team:
 <i>Karol Dubrawski</i> - Public Relations, copywriting <br>
 <i>Karolina Markusiewicz</i> - content supervising <br>
 
+<img src="readme_images/screen1.png" alt="Application screenshot 1" width="180"/> <img src="readme_images/screen4.png" alt="Application screenshot 4" width="180"/>
+<img src="readme_images/screen5.png" alt="Application screenshot 5" width="180"/> <img src="readme_images/screen6.png" alt="Application screenshot 6" width="180"/>
