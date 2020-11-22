@@ -3,7 +3,7 @@
 
 <b>Coronavirus Info</b> is a mobile application developed for purposes of **HackCrisis** hackathon taking place between 18.03.2020 and 22.03.2020. 
 Partnered by GovTech Polska, Google, Amazon, Microsoft and many others, event handled the topic of existent at that time SARS-CoV-2 virus disease.
-It enables users to track the spread of caused by the virus COVID-19.
+It enables users to track the spread of caused by the virus COVID-19. 
 
 Main features available in the application are:
 
